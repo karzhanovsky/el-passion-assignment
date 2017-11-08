@@ -2,7 +2,8 @@
 Front-end Developer Assignment
 
 Requested layout has been created using HTML and CSS only.
-External sources:
+
+External resources:
 https://fonts.google.com - Roboto and Montserrat fonts
 http://fontawesome.io/ - Fav icon (star)
 
