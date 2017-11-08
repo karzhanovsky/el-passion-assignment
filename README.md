@@ -12,4 +12,6 @@ Although the filters have 2 states: hover (pseudo class) and active (class), the
 
 Font used in the sidebar's issues count is Roboto - Proxima Nova used in the PSD file requires a license. Purchase on demand.
 
+Assets used in the project belong to EL Passion Next Sp. z o.o.
+
 ~Karzhanovsky
