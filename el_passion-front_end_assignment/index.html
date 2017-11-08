@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GitHub Issues</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
+		<script src="https://use.fontawesome.com/6b95783d9a.js"></script>
+	</head>
+    <body>
+        <div id="app">
+			<div class="nav-bar">
+				<div id="nav-bar-system-buttons">
+					<button type="button">
+					<button type="button">
+					<button type="button">
+				</div>
+				<ul>
+					<li class="nav-bar-button active" id="filter-all"><span>All</span><div class="nav-bar-count">12</div></li>
+					<li class="nav-bar-button" id="filter-open"><span>Open</span><div class="nav-bar-count">4</div></li>
+					<li class="nav-bar-button" id="filter-closed"><span>Closed</span><div class="nav-bar-count">8</div></li>
+				</ul>
+			</div><div class="list-issues"> <!-- White space between inline positioned divs exceeds parent's width and breaks the line -->
+				<ul>
+					<li>
+						<ul class="list-issues-day">
+							<li>19-07-2016</li>
+							<li><span>Page changes</span><input class="fav" id="issue-1" type="checkbox" checked/><label for="issue-1"></label></li>
+							<li><span>Review of last issues</span><input class="fav" id="issue-2" type="checkbox" checked/><label for="issue-2"></label></li>
+						</ul>
+					</li>
+					<li>
+						<ul class="list-issues-day">
+							<li>18-07-2016</li>
+							<li><span>Visual UI Update Review</span><input class="fav" id="issue-3" type="checkbox"/><label for="issue-3"></label></li>
+							<li><span>Sidebar changes</span><input class="fav" id="issue-4" type="checkbox"/><label for="issue-4"></label></li>
+						</ul>
+					</li>
+					<li>
+						<ul class="list-issues-day">
+							<li>15-07-2016</li>
+							<li><span>Crash update</span><input class="fav" id="issue-5" type="checkbox"/><label for="issue-5"></label></li>
+							<li><span>Page visual UI Update Review</span><input class="fav" id="issue-6" type="checkbox" checked/><label for="issue-6"></label></li>
+							<li><span>Sidebar update</span><input class="fav" id="issue-7" type="checkbox"/><label for="issue-7"></label></li>
+						</ul>
+					</li>
+					<li>
+						<ul class="list-issues-day">
+							<li>14-07-2016</li>
+							<li><span>Crash issue</span></li>
+							<li><span>Visual update & Crash resolve</span><input class="fav" id="issue-8" type="checkbox" checked/><label for="issue-8"></label></li>
+							<li><span>Review of last issues</span><input class="fav" id="issue-9" type="checkbox" checked/><label for="issue-9"></label></li>
+							<li><span>Visual UI Update Review</span><input class="fav" id="issue-10" type="checkbox"/><label for="issue-10"></label></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+    </body>
+</html>
